@@ -12,7 +12,36 @@
 		621FB97D2C6B4DC90056C67E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621FB97C2C6B4DC90056C67E /* ViewController.swift */; };
 		621FB9822C6B4DCA0056C67E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621FB9812C6B4DC90056C67E /* Assets.xcassets */; };
 		621FB9852C6B4DCA0056C67E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 621FB9842C6B4DCA0056C67E /* Base */; };
+		621FB9952C6B4F0F0056C67E /* AvatarWSyncApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621FB9942C6B4F0F0056C67E /* AvatarWSyncApp.swift */; };
+		621FB9972C6B4F0F0056C67E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621FB9962C6B4F0F0056C67E /* ContentView.swift */; };
+		621FB9992C6B4F110056C67E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621FB9982C6B4F110056C67E /* Assets.xcassets */; };
+		621FB99C2C6B4F110056C67E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621FB99B2C6B4F110056C67E /* Preview Assets.xcassets */; };
+		621FB99F2C6B4F110056C67E /* AvatarWSync Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 621FB9922C6B4F0F0056C67E /* AvatarWSync Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		621FB99D2C6B4F110056C67E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 621FB96D2C6B4DC90056C67E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 621FB9912C6B4F0F0056C67E;
+			remoteInfo = "AvatarWSync Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		621FB9A32C6B4F110056C67E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				621FB99F2C6B4F110056C67E /* AvatarWSync Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		621FB9752C6B4DC90056C67E /* AvatarSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvatarSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +51,22 @@
 		621FB9812C6B4DC90056C67E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		621FB9842C6B4DCA0056C67E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		621FB9862C6B4DCA0056C67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		621FB9922C6B4F0F0056C67E /* AvatarWSync Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AvatarWSync Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		621FB9942C6B4F0F0056C67E /* AvatarWSyncApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarWSyncApp.swift; sourceTree = "<group>"; };
+		621FB9962C6B4F0F0056C67E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		621FB9982C6B4F110056C67E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		621FB99B2C6B4F110056C67E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		621FB9722C6B4DC90056C67E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621FB98F2C6B4F0F0056C67E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				621FB9772C6B4DC90056C67E /* AvatarSync */,
+				621FB9932C6B4F0F0056C67E /* AvatarWSync Watch App */,
 				621FB9762C6B4DC90056C67E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				621FB9752C6B4DC90056C67E /* AvatarSync.app */,
+				621FB9922C6B4F0F0056C67E /* AvatarWSync Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,6 +123,25 @@
 			path = "Supporting files";
 			sourceTree = "<group>";
 		};
+		621FB9932C6B4F0F0056C67E /* AvatarWSync Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				621FB9942C6B4F0F0056C67E /* AvatarWSyncApp.swift */,
+				621FB9962C6B4F0F0056C67E /* ContentView.swift */,
+				621FB9982C6B4F110056C67E /* Assets.xcassets */,
+				621FB99A2C6B4F110056C67E /* Preview Content */,
+			);
+			path = "AvatarWSync Watch App";
+			sourceTree = "<group>";
+		};
+		621FB99A2C6B4F110056C67E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				621FB99B2C6B4F110056C67E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -90,14 +152,33 @@
 				621FB9712C6B4DC90056C67E /* Sources */,
 				621FB9722C6B4DC90056C67E /* Frameworks */,
 				621FB9732C6B4DC90056C67E /* Resources */,
+				621FB9A32C6B4F110056C67E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				621FB99E2C6B4F110056C67E /* PBXTargetDependency */,
+			);
+			name = AvatarSync;
+			productName = AvatarSync;
+			productReference = 621FB9752C6B4DC90056C67E /* AvatarSync.app */;
+			productType = "com.apple.product-type.application";
+		};
+		621FB9912C6B4F0F0056C67E /* AvatarWSync Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 621FB9A02C6B4F110056C67E /* Build configuration list for PBXNativeTarget "AvatarWSync Watch App" */;
+			buildPhases = (
+				621FB98E2C6B4F0F0056C67E /* Sources */,
+				621FB98F2C6B4F0F0056C67E /* Frameworks */,
+				621FB9902C6B4F0F0056C67E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AvatarSync;
-			productName = AvatarSync;
-			productReference = 621FB9752C6B4DC90056C67E /* AvatarSync.app */;
+			name = "AvatarWSync Watch App";
+			productName = "AvatarWSync Watch App";
+			productReference = 621FB9922C6B4F0F0056C67E /* AvatarWSync Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,6 +192,9 @@
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					621FB9742C6B4DC90056C67E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					621FB9912C6B4F0F0056C67E = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -129,6 +213,7 @@
 			projectRoot = "";
 			targets = (
 				621FB9742C6B4DC90056C67E /* AvatarSync */,
+				621FB9912C6B4F0F0056C67E /* AvatarWSync Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -140,6 +225,15 @@
 			files = (
 				621FB9822C6B4DCA0056C67E /* Assets.xcassets in Resources */,
 				621FB9852C6B4DCA0056C67E /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		621FB9902C6B4F0F0056C67E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621FB99C2C6B4F110056C67E /* Preview Assets.xcassets in Resources */,
+				621FB9992C6B4F110056C67E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +250,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		621FB98E2C6B4F0F0056C67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621FB9972C6B4F0F0056C67E /* ContentView.swift in Sources */,
+				621FB9952C6B4F0F0056C67E /* AvatarWSyncApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		621FB99E2C6B4F110056C67E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 621FB9912C6B4F0F0056C67E /* AvatarWSync Watch App */;
+			targetProxy = 621FB99D2C6B4F110056C67E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		621FB9832C6B4DCA0056C67E /* LaunchScreen.storyboard */ = {
@@ -292,6 +403,7 @@
 		621FB98A2C6B4DCA0056C67E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -324,6 +436,7 @@
 		621FB98B2C6B4DCA0056C67E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -353,6 +466,66 @@
 			};
 			name = Release;
 		};
+		621FB9A12C6B4F110056C67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AvatarWSync Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = W2HCKKQTYD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AvatarWSync;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.testTask.RoohCO.AvatarSync;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testTask.RoohCO.AvatarSync.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		621FB9A22C6B4F110056C67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AvatarWSync Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = W2HCKKQTYD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AvatarWSync;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.testTask.RoohCO.AvatarSync;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testTask.RoohCO.AvatarSync.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -370,6 +543,15 @@
 			buildConfigurations = (
 				621FB98A2C6B4DCA0056C67E /* Debug */,
 				621FB98B2C6B4DCA0056C67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		621FB9A02C6B4F110056C67E /* Build configuration list for PBXNativeTarget "AvatarWSync Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621FB9A12C6B4F110056C67E /* Debug */,
+				621FB9A22C6B4F110056C67E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
