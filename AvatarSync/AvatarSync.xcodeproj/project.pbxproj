@@ -17,6 +17,7 @@
 		621FB9992C6B4F110056C67E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621FB9982C6B4F110056C67E /* Assets.xcassets */; };
 		621FB99C2C6B4F110056C67E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621FB99B2C6B4F110056C67E /* Preview Assets.xcassets */; };
 		621FB99F2C6B4F110056C67E /* AvatarWSync Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 621FB9922C6B4F0F0056C67E /* AvatarWSync Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		621FB9A62C6B501B0056C67E /* load.json in Resources */ = {isa = PBXBuildFile; fileRef = 621FB9A52C6B501B0056C67E /* load.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		621FB9962C6B4F0F0056C67E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		621FB9982C6B4F110056C67E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		621FB99B2C6B4F110056C67E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		621FB9A52C6B501B0056C67E /* load.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = load.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		621FB98D2C6B4E010056C67E /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
+				621FB9A42C6B500C0056C67E /* Animation */,
 				621FB9812C6B4DC90056C67E /* Assets.xcassets */,
 				621FB9832C6B4DCA0056C67E /* LaunchScreen.storyboard */,
 				621FB9862C6B4DCA0056C67E /* Info.plist */,
@@ -140,6 +143,14 @@
 				621FB99B2C6B4F110056C67E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		621FB9A42C6B500C0056C67E /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				621FB9A52C6B501B0056C67E /* load.json */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				621FB9822C6B4DCA0056C67E /* Assets.xcassets in Resources */,
+				621FB9A62C6B501B0056C67E /* load.json in Resources */,
 				621FB9852C6B4DCA0056C67E /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
