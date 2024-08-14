@@ -11,11 +11,10 @@ class CharacterCreationBuilder {
     static func getCharacterCreationView() -> UIViewController {
         let model = CharacterModel()
         let view = CharacterCreationView()
+        view.model = model
         let presenter = CharacterCreationViewPresenter(view: view, model: model)
         view.presenter = presenter
         return view
     }
-
 }
-
 
