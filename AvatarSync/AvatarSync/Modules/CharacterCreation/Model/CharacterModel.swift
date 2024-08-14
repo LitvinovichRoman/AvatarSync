@@ -21,6 +21,7 @@ class CharacterModel: CharacterModelProtocol {
     var age: Int?
     var height: Int?
     var weight: Int?
+    
     var avatars: [UIImage] = [
         Resources.Images.Avatars.firstAvatar,
         Resources.Images.Avatars.secondAvatar,

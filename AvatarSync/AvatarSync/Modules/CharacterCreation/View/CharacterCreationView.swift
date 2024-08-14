@@ -13,12 +13,14 @@ protocol CharacterCreationViewProtocol: AnyObject {
 }
 
 class CharacterCreationView: BaseView, CharacterCreationViewProtocol {
+    //MARK: -- Properties
     var presenter: CharacterCreationViewPresenterProtocol!
     var model: CharacterModelProtocol!
     private var selectedAvatar: UIImage?
     var stackView = UIStackView()
     private var alertController: UIAlertController?
     
+    //MARK: -- CollectionView
     private lazy var collectionView: UICollectionView = {
         let layout = ResizableLayout()
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
@@ -31,9 +33,11 @@ class CharacterCreationView: BaseView, CharacterCreationViewProtocol {
         return collectionView
     }()
     
+    //MARK: -- Properties[Labels]
     private lazy var selectCharacterLabel = TitleLabel(text: Constants.CharacterCreationViewConstants.selectCharacterLabelText)
     private lazy var setParametersLabel = TitleLabel(text: Constants.CharacterCreationViewConstants.setParametersLabelText)
     
+    //MARK: -- Properties[Pickers]
     private lazy var agePickerView: PickerView = {
         return $0
     }(PickerView(labelText: Constants.CharacterCreationViewConstants.agePickerViewTitle, pickerDelegate: self))
@@ -46,6 +50,7 @@ class CharacterCreationView: BaseView, CharacterCreationViewProtocol {
         return $0
     }(PickerView(labelText: Constants.CharacterCreationViewConstants.weightPickerViewTitle, pickerDelegate: self))
     
+    //MARK: -- Properties[lazy Button]
     private lazy var createButton: CreateButton = {
         $0.addTarget(self, action: #selector(createButtonTapped), for: .touchUpInside)
         return $0
@@ -117,13 +122,14 @@ extension CharacterCreationView {
 
 //MARK: - Configure layout
 extension CharacterCreationView {
+    //MARK: -- setupStackView
     func setupStackView() {
         stackView = UIStackView(arrangedSubviews: [agePickerView, heightPickerView, weightPickerView])
         stackView.axis = .horizontal
         stackView.distribution = .fillEqually
         stackView.spacing = Constants.CharacterCreationViewConstants.stackViewSpacing
     }
-    
+   
     func configureLayout() {
         setupStackView()
         view.addSubviews(selectCharacterLabel, setParametersLabel, collectionView, stackView, createButton)

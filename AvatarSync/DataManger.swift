@@ -15,6 +15,7 @@ class DataManger {
         case height
     }
     
+    //MARK: -- static var [avatar]
     static var avatar: UIImage? {
         get {
             guard let data = UserDefaults.standard.data(forKey: SettingKey.avatar.rawValue) else {
@@ -35,7 +36,7 @@ class DataManger {
         }
     }
     
-    
+    //MARK: -- static var [age]
     static var age: Int! {
         get {
             return UserDefaults.standard.integer(forKey: SettingKey.age.rawValue)
@@ -53,6 +54,7 @@ class DataManger {
         }
     }
     
+    //MARK: -- static var [weight]
     static var weight: Int! {
         get {
             return UserDefaults.standard.integer(forKey: SettingKey.weight.rawValue)
@@ -70,6 +72,7 @@ class DataManger {
         }
     }
     
+    //MARK: -- static var [height]
     static var height: Int! {
         get {
             return UserDefaults.standard.integer(forKey: SettingKey.height.rawValue)

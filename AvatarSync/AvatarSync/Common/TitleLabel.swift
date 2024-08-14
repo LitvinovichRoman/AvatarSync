@@ -8,6 +8,7 @@
 import UIKit
 
 class TitleLabel: UILabel {
+    //MARK: -- Init methods
     init(text: String) {
         super.init(frame: .zero)
         self.text = text

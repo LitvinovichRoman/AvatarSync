@@ -8,7 +8,7 @@
 import UIKit
 
 class PickerView: UIView {
-    
+    //MARK: -- Properties
     private let label: UILabel = {
         $0.textAlignment = .center
         $0.textColor = Constants.PickerViewConstants.textColor
@@ -23,6 +23,7 @@ class PickerView: UIView {
         return $0
     }(UIPickerView())
     
+    //MARK: -- Init methods
     init(labelText: String, pickerDelegate: UIPickerViewDelegate & UIPickerViewDataSource) {
         super.init(frame: .zero)
         
@@ -30,10 +31,17 @@ class PickerView: UIView {
         picker.delegate = pickerDelegate
         picker.dataSource = pickerDelegate
         
-        setupUI()
+        configurePicker()
     }
     
-    private func setupUI() {
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+}
+
+//MARK: -- Configure Picker
+private extension PickerView {
+    func configurePicker() {
         addSubviews(label,picker)
         
         NSLayoutConstraint.activate([
@@ -47,9 +55,5 @@ class PickerView: UIView {
             picker.trailingAnchor.constraint(equalTo: trailingAnchor),
             picker.bottomAnchor.constraint(equalTo: bottomAnchor)
         ])
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
     }
 }

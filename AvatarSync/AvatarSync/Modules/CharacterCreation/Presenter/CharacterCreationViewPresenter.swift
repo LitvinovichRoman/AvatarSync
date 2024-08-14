@@ -14,10 +14,12 @@ protocol CharacterCreationViewPresenterProtocol: AnyObject {
 }
 
 class CharacterCreationViewPresenter: CharacterCreationViewPresenterProtocol {
+    //MARK: -- Properties
     private weak var view: CharacterCreationViewProtocol?
     private var model: CharacterModelProtocol
     private var selectedAvatar: UIImage?
     
+    //MARK: -- Init methods
     init(view: CharacterCreationViewProtocol, model: CharacterModelProtocol) {
         self.view = view
         self.model = model
@@ -27,6 +29,7 @@ class CharacterCreationViewPresenter: CharacterCreationViewPresenterProtocol {
         selectedAvatar = avatar
     }
     
+    //MARK: -- createCharacter
     func createCharacter(avatar: UIImage, age: Int, height: Int, weight: Int) {
         guard let selectedAvatar = selectedAvatar else {
             view?.showError(message: Constants.CharacterCreationViewConstants.errorAlertMessage)

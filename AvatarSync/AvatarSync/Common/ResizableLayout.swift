@@ -8,7 +8,6 @@
 import UIKit
 
 class ResizableLayout: UICollectionViewFlowLayout {
-    
     override init() {
         super.init()
         scrollDirection = .horizontal

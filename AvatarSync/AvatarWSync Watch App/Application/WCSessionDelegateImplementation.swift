@@ -11,7 +11,6 @@ import UIKit
 
 class WCSessionDelegateImplementation: NSObject, WCSessionDelegate {
     
-    
     static let shared = WCSessionDelegateImplementation()
     
     private override init() {

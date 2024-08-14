@@ -8,8 +8,10 @@
 import UIKit
 
 class CreateButton: UIButton {
+    //MARK: -- Properties
     var title: String?
     
+    //MARK: -- Init methods
     init(title: String) {
         super.init(frame: .zero)
         self.title = title
