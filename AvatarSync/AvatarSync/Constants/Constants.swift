@@ -20,6 +20,8 @@ struct Constants {
     enum PickerViewConstants {
         static let labelfont: UIFont = .systemFont(ofSize: 18, weight: .semibold)
         static let labelBackgroundColor: UIColor = .systemGray5.withAlphaComponent(0.3)
+        static let textColor: UIColor = .black
+
         
         static let cornerRadius: CGFloat = 12
         static let labelHeight: CGFloat =  30
@@ -31,6 +33,17 @@ struct Constants {
         static let font: UIFont = .systemFont(ofSize: 28, weight: .bold)
         static let backgroundColor: UIColor = .systemGray5.withAlphaComponent(0.3)
         static let cornerRadius: CGFloat = 12
+        static let textColor: UIColor = .black
+    }
+    
+    //MARK: -- CreateButtonConstants
+    enum CreateButtonConstants {
+        static let height: CGFloat = 44
+        static let width: CGFloat = 150
+        static let cornerRadius: CGFloat = 22
+        static let titleFont: UIFont = .systemFont(ofSize: 18, weight: .semibold)
+        static let backgroundColor: UIColor = .systemGray5.withAlphaComponent(0.3)
+        static let textColor: UIColor = .black
     }
     
     //MARK: -- CharacterCreationViewConstants
