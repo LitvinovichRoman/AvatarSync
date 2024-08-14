@@ -8,8 +8,6 @@
 import UIKit
 
 class CreateButton: UIButton {
-    let height: CGFloat = 44
-    let width: CGFloat = 150
     var title: String?
     
     init(title: String) {
@@ -27,13 +25,14 @@ class CreateButton: UIButton {
 //MARK: - Configure Button
 private extension CreateButton {
     func configureButton() {
-        heightAnchor.constraint(equalToConstant: height).isActive = true
-        widthAnchor.constraint(equalToConstant: width).isActive = true
+        heightAnchor.constraint(equalToConstant: Constants.CreateButtonConstants.height).isActive = true
+        widthAnchor.constraint(equalToConstant: Constants.CreateButtonConstants.width).isActive = true
         layer.masksToBounds = true
-        layer.cornerRadius = 22
+        layer.cornerRadius = Constants.CreateButtonConstants.cornerRadius
         setTitleColor(.black, for: .normal)
-        titleLabel?.font = .systemFont(ofSize: 18, weight: .semibold)
-        backgroundColor = .systemGray5.withAlphaComponent(0.3)
+        titleLabel?.font = Constants.CreateButtonConstants.titleFont
+        backgroundColor = Constants.CreateButtonConstants.backgroundColor
         setTitle(title, for: .normal)
+        setTitleColor(Constants.CreateButtonConstants.textColor, for: .normal)
     }
 }

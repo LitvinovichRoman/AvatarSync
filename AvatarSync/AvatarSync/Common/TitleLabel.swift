@@ -12,7 +12,7 @@ class TitleLabel: UILabel {
         super.init(frame: .zero)
         self.text = text
         self.textAlignment = .center
-        self.textColor = .black
+        self.textColor = Constants.TitleLabelConstants.textColor
         self.font = Constants.TitleLabelConstants.font
         self.backgroundColor = Constants.TitleLabelConstants.backgroundColor
         self.layer.masksToBounds = true

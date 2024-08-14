@@ -12,15 +12,30 @@
 		621FB9822C6B4DCA0056C67E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621FB9812C6B4DC90056C67E /* Assets.xcassets */; };
 		621FB9852C6B4DCA0056C67E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 621FB9842C6B4DCA0056C67E /* Base */; };
 		621FB9952C6B4F0F0056C67E /* AvatarWSyncApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621FB9942C6B4F0F0056C67E /* AvatarWSyncApp.swift */; };
-		621FB9972C6B4F0F0056C67E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621FB9962C6B4F0F0056C67E /* ContentView.swift */; };
 		621FB9992C6B4F110056C67E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621FB9982C6B4F110056C67E /* Assets.xcassets */; };
 		621FB99C2C6B4F110056C67E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621FB99B2C6B4F110056C67E /* Preview Assets.xcassets */; };
 		621FB99F2C6B4F110056C67E /* AvatarWSync Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 621FB9922C6B4F0F0056C67E /* AvatarWSync Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		621FB9A62C6B501B0056C67E /* load.json in Resources */ = {isa = PBXBuildFile; fileRef = 621FB9A52C6B501B0056C67E /* load.json */; };
 		621FB9B62C6B672A0056C67E /* CharacterCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621FB9B52C6B672A0056C67E /* CharacterCreationView.swift */; };
 		621FB9C12C6B6A020056C67E /* CharacterCreationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621FB9C02C6B6A020056C67E /* CharacterCreationBuilder.swift */; };
 		621FB9C32C6B6A850056C67E /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621FB9C22C6B6A850056C67E /* CharacterModel.swift */; };
 		621FB9C52C6B6AB90056C67E /* CharacterCreationViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621FB9C42C6B6AB90056C67E /* CharacterCreationViewPresenter.swift */; };
+		621FB9C72C6B79DD0056C67E /* ResizableLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621FB9C62C6B79DD0056C67E /* ResizableLayout.swift */; };
+		621FB9C92C6B7A720056C67E /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621FB9C82C6B7A720056C67E /* AvatarCell.swift */; };
+		621FB9CB2C6B7AEC0056C67E /* UIView.ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621FB9CA2C6B7AEC0056C67E /* UIView.ext.swift */; };
+		621FB9D22C6B828A0056C67E /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621FB9D12C6B828A0056C67E /* PickerView.swift */; };
+		621FB9D62C6B8F700056C67E /* CreateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621FB9D52C6B8F700056C67E /* CreateButton.swift */; };
+		621FB9D82C6B93350056C67E /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621FB9D72C6B93350056C67E /* BaseView.swift */; };
+		621FB9DA2C6B9DE00056C67E /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621FB9D92C6B9DE00056C67E /* TitleLabel.swift */; };
+		627B5C852C6CD60D00F0D7F4 /* DataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627B5C842C6CD60D00F0D7F4 /* DataManger.swift */; };
+		627B5C862C6CD60D00F0D7F4 /* DataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627B5C842C6CD60D00F0D7F4 /* DataManger.swift */; };
+		627B5C882C6CE7EE00F0D7F4 /* WCSessionDelegateImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627B5C872C6CE7EE00F0D7F4 /* WCSessionDelegateImplementation.swift */; };
+		627B5C902C6CFEC300F0D7F4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627B5C8F2C6CFEC300F0D7F4 /* Constants.swift */; };
+		627B5C922C6CFEF100F0D7F4 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627B5C912C6CFEF100F0D7F4 /* Resources.swift */; };
+		627B5C952C6D0D0100F0D7F4 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627B5C942C6D0D0100F0D7F4 /* PickerView.swift */; };
+		627B5C9C2C6D15E100F0D7F4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627B5C9B2C6D15E100F0D7F4 /* Constants.swift */; };
+		62AEEE172C6CB53A00FDDC7E /* WatchDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AEEE162C6CB53A00FDDC7E /* WatchDataModel.swift */; };
+		62AEEE192C6CB54A00FDDC7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AEEE182C6CB54A00FDDC7E /* ContentView.swift */; };
+		62AEEE1B2C6CB55B00FDDC7E /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AEEE1A2C6CB55A00FDDC7E /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,14 +71,28 @@
 		621FB9862C6B4DCA0056C67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		621FB9922C6B4F0F0056C67E /* AvatarWSync Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AvatarWSync Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		621FB9942C6B4F0F0056C67E /* AvatarWSyncApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarWSyncApp.swift; sourceTree = "<group>"; };
-		621FB9962C6B4F0F0056C67E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		621FB9982C6B4F110056C67E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		621FB99B2C6B4F110056C67E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		621FB9A52C6B501B0056C67E /* load.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = load.json; sourceTree = "<group>"; };
 		621FB9B52C6B672A0056C67E /* CharacterCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCreationView.swift; sourceTree = "<group>"; };
 		621FB9C02C6B6A020056C67E /* CharacterCreationBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCreationBuilder.swift; sourceTree = "<group>"; };
 		621FB9C22C6B6A850056C67E /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
 		621FB9C42C6B6AB90056C67E /* CharacterCreationViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCreationViewPresenter.swift; sourceTree = "<group>"; };
+		621FB9C62C6B79DD0056C67E /* ResizableLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableLayout.swift; sourceTree = "<group>"; };
+		621FB9C82C6B7A720056C67E /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		621FB9CA2C6B7AEC0056C67E /* UIView.ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.ext.swift; sourceTree = "<group>"; };
+		621FB9D12C6B828A0056C67E /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		621FB9D52C6B8F700056C67E /* CreateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateButton.swift; sourceTree = "<group>"; };
+		621FB9D72C6B93350056C67E /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		621FB9D92C6B9DE00056C67E /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
+		627B5C842C6CD60D00F0D7F4 /* DataManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManger.swift; sourceTree = "<group>"; };
+		627B5C872C6CE7EE00F0D7F4 /* WCSessionDelegateImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCSessionDelegateImplementation.swift; sourceTree = "<group>"; };
+		627B5C8F2C6CFEC300F0D7F4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		627B5C912C6CFEF100F0D7F4 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		627B5C942C6D0D0100F0D7F4 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		627B5C9B2C6D15E100F0D7F4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		62AEEE162C6CB53A00FDDC7E /* WatchDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchDataModel.swift; sourceTree = "<group>"; };
+		62AEEE182C6CB54A00FDDC7E /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		62AEEE1A2C6CB55A00FDDC7E /* EditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +116,7 @@
 		621FB96C2C6B4DC90056C67E = {
 			isa = PBXGroup;
 			children = (
+				627B5C842C6CD60D00F0D7F4 /* DataManger.swift */,
 				621FB9772C6B4DC90056C67E /* AvatarSync */,
 				621FB9932C6B4F0F0056C67E /* AvatarWSync Watch App */,
 				621FB9762C6B4DC90056C67E /* Products */,
@@ -107,6 +137,7 @@
 			children = (
 				621FB98C2C6B4DF10056C67E /* Application */,
 				621FB9BB2C6B69530056C67E /* Helpers */,
+				627B5C8E2C6CFEA300F0D7F4 /* Constants */,
 				621FB9BA2C6B694C0056C67E /* Common */,
 				621FB9BC2C6B69640056C67E /* Modules */,
 				621FB98D2C6B4E010056C67E /* Supporting files */,
@@ -126,9 +157,9 @@
 		621FB98D2C6B4E010056C67E /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
-				621FB9A42C6B500C0056C67E /* Animation */,
-				621FB9812C6B4DC90056C67E /* Assets.xcassets */,
 				621FB9832C6B4DCA0056C67E /* LaunchScreen.storyboard */,
+				627B5C912C6CFEF100F0D7F4 /* Resources.swift */,
+				621FB9812C6B4DC90056C67E /* Assets.xcassets */,
 				621FB9862C6B4DCA0056C67E /* Info.plist */,
 			);
 			path = "Supporting files";
@@ -137,9 +168,12 @@
 		621FB9932C6B4F0F0056C67E /* AvatarWSync Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				621FB9942C6B4F0F0056C67E /* AvatarWSyncApp.swift */,
-				621FB9962C6B4F0F0056C67E /* ContentView.swift */,
-				621FB9982C6B4F110056C67E /* Assets.xcassets */,
+				627B5C972C6D0E3500F0D7F4 /* Application */,
+				627B5C9A2C6D15C700F0D7F4 /* Constants */,
+				627B5C932C6D0CE600F0D7F4 /* Common */,
+				627B5C982C6D0E4A00F0D7F4 /* Model */,
+				627B5C962C6D0E0A00F0D7F4 /* Views */,
+				627B5C992C6D13C100F0D7F4 /* Supporting files */,
 				621FB99A2C6B4F110056C67E /* Preview Content */,
 			);
 			path = "AvatarWSync Watch App";
@@ -151,14 +185,6 @@
 				621FB99B2C6B4F110056C67E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		621FB9A42C6B500C0056C67E /* Animation */ = {
-			isa = PBXGroup;
-			children = (
-				621FB9A52C6B501B0056C67E /* load.json */,
-			);
-			path = Animation;
 			sourceTree = "<group>";
 		};
 		621FB9B72C6B69360056C67E /* View */ = {
@@ -188,6 +214,12 @@
 		621FB9BA2C6B694C0056C67E /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				621FB9C62C6B79DD0056C67E /* ResizableLayout.swift */,
+				621FB9C82C6B7A720056C67E /* AvatarCell.swift */,
+				621FB9D12C6B828A0056C67E /* PickerView.swift */,
+				621FB9D52C6B8F700056C67E /* CreateButton.swift */,
+				621FB9D72C6B93350056C67E /* BaseView.swift */,
+				621FB9D92C6B9DE00056C67E /* TitleLabel.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -195,6 +227,7 @@
 		621FB9BB2C6B69530056C67E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				621FB9CC2C6B7B080056C67E /* Extensions */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -225,6 +258,72 @@
 			);
 			name = Builder;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		621FB9CC2C6B7B080056C67E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				621FB9CA2C6B7AEC0056C67E /* UIView.ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		627B5C8E2C6CFEA300F0D7F4 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				627B5C8F2C6CFEC300F0D7F4 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		627B5C932C6D0CE600F0D7F4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				627B5C942C6D0D0100F0D7F4 /* PickerView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		627B5C962C6D0E0A00F0D7F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				62AEEE182C6CB54A00FDDC7E /* ContentView.swift */,
+				62AEEE1A2C6CB55A00FDDC7E /* EditView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		627B5C972C6D0E3500F0D7F4 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				627B5C872C6CE7EE00F0D7F4 /* WCSessionDelegateImplementation.swift */,
+				621FB9942C6B4F0F0056C67E /* AvatarWSyncApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		627B5C982C6D0E4A00F0D7F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				62AEEE162C6CB53A00FDDC7E /* WatchDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		627B5C992C6D13C100F0D7F4 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				621FB9982C6B4F110056C67E /* Assets.xcassets */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		627B5C9A2C6D15C700F0D7F4 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				627B5C9B2C6D15E100F0D7F4 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,7 +408,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				621FB9822C6B4DCA0056C67E /* Assets.xcassets in Resources */,
-				621FB9A62C6B501B0056C67E /* load.json in Resources */,
 				621FB9852C6B4DCA0056C67E /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,11 +428,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				621FB9D62C6B8F700056C67E /* CreateButton.swift in Sources */,
+				621FB9D22C6B828A0056C67E /* PickerView.swift in Sources */,
 				621FB9792C6B4DC90056C67E /* AppDelegate.swift in Sources */,
+				621FB9DA2C6B9DE00056C67E /* TitleLabel.swift in Sources */,
+				621FB9D82C6B93350056C67E /* BaseView.swift in Sources */,
+				627B5C922C6CFEF100F0D7F4 /* Resources.swift in Sources */,
+				627B5C902C6CFEC300F0D7F4 /* Constants.swift in Sources */,
+				627B5C852C6CD60D00F0D7F4 /* DataManger.swift in Sources */,
 				621FB9C32C6B6A850056C67E /* CharacterModel.swift in Sources */,
+				621FB9CB2C6B7AEC0056C67E /* UIView.ext.swift in Sources */,
 				621FB9B62C6B672A0056C67E /* CharacterCreationView.swift in Sources */,
+				621FB9C92C6B7A720056C67E /* AvatarCell.swift in Sources */,
 				621FB9C12C6B6A020056C67E /* CharacterCreationBuilder.swift in Sources */,
 				621FB9C52C6B6AB90056C67E /* CharacterCreationViewPresenter.swift in Sources */,
+				621FB9C72C6B79DD0056C67E /* ResizableLayout.swift in Sources */,
 				621FB97B2C6B4DC90056C67E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,8 +451,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				621FB9972C6B4F0F0056C67E /* ContentView.swift in Sources */,
 				621FB9952C6B4F0F0056C67E /* AvatarWSyncApp.swift in Sources */,
+				627B5C882C6CE7EE00F0D7F4 /* WCSessionDelegateImplementation.swift in Sources */,
+				62AEEE1B2C6CB55B00FDDC7E /* EditView.swift in Sources */,
+				62AEEE192C6CB54A00FDDC7E /* ContentView.swift in Sources */,
+				62AEEE172C6CB53A00FDDC7E /* WatchDataModel.swift in Sources */,
+				627B5C952C6D0D0100F0D7F4 /* PickerView.swift in Sources */,
+				627B5C862C6CD60D00F0D7F4 /* DataManger.swift in Sources */,
+				627B5C9C2C6D15E100F0D7F4 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

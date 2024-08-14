@@ -11,7 +11,7 @@ class PickerView: UIView {
     
     private let label: UILabel = {
         $0.textAlignment = .center
-        $0.textColor = .black
+        $0.textColor = Constants.PickerViewConstants.textColor
         $0.font = Constants.PickerViewConstants.labelfont
         $0.backgroundColor = Constants.PickerViewConstants.labelBackgroundColor
         $0.layer.masksToBounds = true
